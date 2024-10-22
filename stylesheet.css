@@ -41,3 +41,16 @@ span {
     bottom: 10px;
     right: 15px;
 }
+
+textarea:focus {
+    outline: none;
+}
+
+.limitSpan {
+    color: red;
+}
+
+.limitArea {
+    border: 2px solid red;
+    color: red;
+}

@@ -7,12 +7,16 @@
     <link href="stylesheet.css" rel="stylesheet">
 </head>
 <body>
+    
+
     <div class="center">
         <h1>Restricted Textarea</h1>
         <div class="area">
-            <textarea placeholder="Enter text..."></textarea>
-            <span>0 / 200</span>
+            <textarea oninput="handleInput()" maxlength="20" placeholder="Enter text..."></textarea>
+            <span></span>
         </div>
     </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
