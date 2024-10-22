@@ -1,0 +1,43 @@
+body {
+    background-color: #1e1f24;
+    color: #dddddd;
+    font-family: Arial;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 10rem;
+}
+
+.area {
+    position: relative;
+    display: inline-block;
+    width: 25rem;
+}
+
+textarea {
+    color: white;
+    width: 22.5rem;
+    height: 15rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: #2c2d33;
+    font-size: 1.25rem;
+    resize: none;
+    overflow: hidden;
+}
+
+span {
+    font-weight: 600;
+    font-size: 1.25rem;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
